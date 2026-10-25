@@ -5,6 +5,15 @@ type Shape interface {
 	Area() float64
 }
 
+type Geometry interface {
+	Shape
+	Measurable
+}
+
+type Measurable interface {
+	Perimeter() float64
+}
+
 func ExternalInterfaces() {
 
 }
