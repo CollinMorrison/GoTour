@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("hello interfaces")
 	// automatically imported from interfaces.go
 	interfaces()
+	structs()
 }
