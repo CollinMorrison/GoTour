@@ -5,4 +5,4 @@ To initialize a Go project, run `go mod init [your package name]`
 Running a Go app:
 - run `go run .`
 
-Each folder in this repo is runnable on its own, ie. it has a main.go package and therefore is picked up by `go run .`
+Each folder in this repo is runnable on its own, ie. it has a main.go package and therefore is picked up by `go run ./[folder name]`

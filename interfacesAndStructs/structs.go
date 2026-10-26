@@ -5,7 +5,8 @@ import (
 )
 
 // a struct is a collection of fields, like an object
-
+// this struct is exported, so it can be used within the package
+// or by another package if this one is imported (see ../arrays/main.go)
 type Vertex struct {
 	X int
 	Y int
